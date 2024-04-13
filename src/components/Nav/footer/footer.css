@@ -1,0 +1,17 @@
+.foot{
+    width:100vw;
+    height:4rem;
+    font-size:small;
+    font-weight:800;
+    background-color:white;
+    color:black;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    margin-left:120px;
+}
+@media screen and (max-width: 600px) {
+    .foot {
+      font-size: x-small;
+    }
+  }

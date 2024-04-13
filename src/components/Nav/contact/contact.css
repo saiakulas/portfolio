@@ -1,0 +1,100 @@
+#contact{
+    height: 100vh;
+  width: 100vw;
+  max-width: 75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto; /* Add margin between Work and Contact */
+  position: relative;
+  margin-left:150px;
+}
+.contitle {
+    padding: 1rem; 
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .condes {
+    text-align: center;
+    font-weight: 600;
+    margin-left: 500px;
+  }
+  
+  .contactform {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .name,
+  .email,
+  .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: rgb(22, 20, 20);
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(240, 237, 237);
+  }
+  
+  .bt {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 10px;
+    margin: 2rem;
+    width: 200px;
+    font-weight: bold;
+  }
+  
+  .bt:hover {
+    background-color: #d4d4d4;
+    color: black;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  
+  .link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75;
+    padding: 1rem;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .condes {
+      margin-left: 0;
+    }
+  
+    .name,
+    .email,
+    .msg {
+      margin-left: 0;
+    }
+  
+    .bt {
+      margin-left: 0;
+    }
+  }
+  
